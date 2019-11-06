@@ -2,7 +2,7 @@ import React from "react";
 import HomeScreen from "../Screens/HomeScreen";
 import Login from '../Component/Login-Register/Login'
 import Register from '../Component/Login-Register/Register'
-import { BrowserRouter, Route,  Switch } from "react-router-dom"; 
+import { HashRouter, Route,  Switch } from "react-router-dom"; 
 import AdminScreen from '../Screens/AdminScreen'
 import CoursesManage from '../Component/AdminScreen/CoursesManage'
 import UsersManage from '../Component/AdminScreen/UsersManage'
@@ -40,7 +40,7 @@ import ProfileScreen from "../Screens/ProfileScreen";
 const Layout = () => {
   
   return (
-    <BrowserRouter> 
+    <HashRouter> 
 
       <Switch> 
         <AuthAdmin path="/admin/map" component={Map}/>
@@ -69,7 +69,7 @@ const Layout = () => {
         <Route path="/list-course/:keyword" component={ListCourseScreen}/>
         <Route path="/" component={HomeScreen} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
