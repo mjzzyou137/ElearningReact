@@ -2,7 +2,7 @@
   "name": "elerning",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mjzzyou137.github.io",
+  "homepage": "https://mjzzyou137.github.io/ElearningReact",
   "dependencies": {
     "@material-ui/core": "^4.4.0",
     "@material-ui/icons": "^4.2.1",
